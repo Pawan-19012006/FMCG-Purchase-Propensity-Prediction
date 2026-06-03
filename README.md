@@ -1,10 +1,25 @@
+<div align="center">
+
 # FMCG Purchase Propensity Prediction Dashboard
 
-An end-to-end Machine Learning project focused on understanding customer purchase behavior in the FMCG (Fast-Moving Consumer Goods) domain using classification models, campaign simulation, and business-driven ML system design.
+<br>
+
+![Python](https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&labelColor=4B4B4B)
+![Scikit Learn](https://img.shields.io/badge/ML-SCIKIT--LEARN-F7931E?style=for-the-badge&labelColor=4B4B4B)
+![XGBoost](https://img.shields.io/badge/MODEL-XGBOOST-EF4444?style=for-the-badge&labelColor=4B4B4B)
+![Streamlit](https://img.shields.io/badge/DASHBOARD-STREAMLIT-FF4B4B?style=for-the-badge&labelColor=4B4B4B)
+
+<br>
+
+![System](https://img.shields.io/badge/SYSTEM-BUSINESS%20ML%20WORKFLOW-6B7280?style=for-the-badge&labelColor=4B4B4B)
+
+</div>
 
 ![Dashboard Preview](images/dashboard.png)
 
 # Project Overview
+
+An end-to-end Machine Learning project focused on understanding customer purchase behavior in the FMCG (Fast-Moving Consumer Goods) domain using classification models, campaign simulation, and business-driven ML system design.
 
 This project started as a simple classification problem:
 
