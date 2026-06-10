@@ -13,6 +13,37 @@
 
 ![Dashboard Preview](images/dashboard.png)
 
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [The Biggest Mistake We Initially Made](#the-biggest-mistake-we-initially-made)
+- [The Real Problem We Should Have Solved First](#the-real-problem-we-should-have-solved-first)
+- [Important Realization](#important-realization)
+- [What We Would Do Differently If Starting Again](#what-we-would-do-differently-if-starting-again)
+  - [1. Build Customer Behavioral Dataset](#1-build-customer-behavioral-dataset)
+  - [2. Separate Company Features From Customer Features](#2-separate-company-features-from-customer-features)
+- [What The Frontend Should Actually Ask](#what-the-frontend-should-actually-ask)
+- [Correct Enterprise-Style Workflow](#correct-enterprise-style-workflow)
+- [How The Prediction System Actually Works](#how-the-prediction-system-actually-works)
+- [Final Prediction Architecture](#final-prediction-architecture)
+  - [Step 1 — Keep Product/Campaign Data Static](#step-1--keep-productcampaign-data-static)
+  - [Step 2 — Iterate Through Customer Database](#step-2--iterate-through-customer-database)
+  - [Step 3 — Predict Purchase Probability For Every Customer](#step-3--predict-purchase-probability-for-every-customer)
+- [Important Learning About Probabilities](#important-learning-about-probabilities)
+- [How Expected Buyers Are Calculated](#how-expected-buyers-are-calculated)
+- [Quantity Prediction (Regression Model)](#quantity-prediction-regression-model)
+- [Correct Industry-Style Pipeline](#correct-industry-style-pipeline)
+  - [Model 1 — Classification](#model-1--classification)
+  - [Model 2 — Regression](#model-2--regression)
+- [Final Demand Forecasting Logic](#final-demand-forecasting-logic)
+- [Biggest Final Learning](#biggest-final-learning)
+- [Current Status](#current-status)
+- [Final Thought](#final-thought)
+
+---
+
 # Project Overview
 
 An end-to-end Machine Learning project focused on understanding customer purchase behavior in the FMCG (Fast-Moving Consumer Goods) domain using classification models, campaign simulation, and business-driven ML system design.
